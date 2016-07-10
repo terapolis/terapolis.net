@@ -1,0 +1,14 @@
+siteTitle = "Ihor Orlovskyi Portfolio"
+siteDescr = "Web Scientist, Front-end Engineer & Psychedelic Musician"
+siteAuthor = "Ihor Orlovskyi"
+
+siteLinkedinUrl = ""
+siteFbUrl = "https://www.facebook.com/teslar.com.ua"
+siteGithubUrl = ""
+siteSoundcloudUrl = ""
+siteInstagramUrl = ""
+siteGpUrl = ""
+siteTwitterUrl = ""
+
+
+linkPrefix = "/teslar-react"

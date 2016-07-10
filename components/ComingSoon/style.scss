@@ -1,0 +1,83 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background: url(bg.jpg) center no-repeat;
+    background-size: cover;
+    font-family: 'PT Serif', serif;
+    margin: 0;
+}
+
+.coming-soon {
+    text-align: center;
+
+    img.logo {
+        width: 180px;
+        height: auto;
+        margin: 50px auto 110px;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 46px;
+        padding: 0 16%;
+        margin-bottom: 50px;
+    }
+
+    section {
+        margin: 0 auto 120px;
+        width: 670px;
+        text-align: left;
+        position: relative;
+        padding: 40px 60px;
+        background: rgba(#fff,.2);
+
+        h2 {
+            margin: 0;
+            color: #8b8901;
+            background: #fff;
+            width: 270px;
+            padding: 40px;
+            font-size: 24px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+        }
+
+        div.fb {
+            padding-left: 270px;
+
+            h3 {
+                margin: 0 0 40px;
+                color: #fff;
+                font-size: 20px;
+                font-weight: 400;
+            }
+
+            a {
+                text-decoration: none;
+                color: #c6c6c6;
+                font-size: 15px;
+                border: 1px solid #fff;
+                display: block;
+                padding: 12px 92px 12px 18px;
+                background: url(icon-fb.png) right center no-repeat;
+                background-image: url(icon-fb.png);
+            }
+        }
+    }
+
+    p.copy {
+        font-family: 'PT Sans', sans-serif;
+        color: #ef4030;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 13px;
+        margin-bottom: 60px;
+    }
+}
