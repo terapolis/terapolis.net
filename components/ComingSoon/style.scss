@@ -1,12 +1,6 @@
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 body {
     text-align: center;
-    background: url(bg.jpg) center no-repeat;
+    background: #3c291d url(./bg.jpg) center no-repeat;
     background-size: cover;
     font-family: 'PT Serif', serif;
     margin: 0;
@@ -15,13 +9,13 @@ body {
 .coming-soon {
     text-align: center;
 
-    img.logo {
+    &__logo {
         width: 180px;
         height: auto;
         margin: 50px auto 110px;
     }
 
-    h1 {
+    &__title {
         color: #fff;
         font-size: 46px;
         padding: 0 16%;
@@ -35,6 +29,7 @@ body {
         position: relative;
         padding: 40px 60px;
         background: rgba(#fff,.2);
+        box-sizing: border-box;
 
         h2 {
             margin: 0;
@@ -47,6 +42,7 @@ body {
             left: 0;
             top: 0;
             height: 100%;
+            box-sizing: border-box;
         }
 
         div.fb {
@@ -66,13 +62,12 @@ body {
                 border: 1px solid #fff;
                 display: block;
                 padding: 12px 92px 12px 18px;
-                background: url(icon-fb.png) right center no-repeat;
-                background-image: url(icon-fb.png);
+                background: url(./icon-fb.png) right center no-repeat;
             }
         }
     }
 
-    p.copy {
+    &__copyright {
         font-family: 'PT Sans', sans-serif;
         color: #ef4030;
         text-transform: uppercase;

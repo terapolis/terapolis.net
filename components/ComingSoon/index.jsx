@@ -9,9 +9,9 @@ class ComingSoon extends React.Component {
     render() {
         return (
             <div className='coming-soon'>
-                <img className='logo' src={ prefixLink('/logo.png') } alt='Теsl’ar Logo' />
+                <img className='coming-soon__logo' src={ prefixLink('/logo.png') } alt='Теsl’ar Logo' />
 
-                <h1>Приветствуем вас на “комингсун” странице столярной мастерской Теsl’ar!</h1>
+                <h1 className='coming-soon__title'>Приветствуем вас на “комингсун” странице столярной мастерской Теsl’ar!</h1>
 
                 <section>
 
@@ -24,7 +24,7 @@ class ComingSoon extends React.Component {
 
                 </section>
 
-                <p className='copy'>2013 - 2016 © tesl’ar</p>
+                <div className='coming-soon__copyright'>2013 - 2016 © tesl’ar</div>
             </div>
         );
     }
