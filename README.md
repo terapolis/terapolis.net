@@ -1,6 +1,6 @@
 # React Porfolio
 
-Web development of Ihor Orlovskyi portfolio site using [GatsbyJS](https://github.com/gatsbyjs/gatsby) - a [ReactJS](https://facebook.github.io/react) static site generator.
+Web development of Теsl’ar Studio portfolio site using [GatsbyJS](https://github.com/gatsbyjs/gatsby) - a [ReactJS](https://facebook.github.io/react) static site generator.
 
 ### How to use
 
