@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background: #3c291d url(./bg.jpg) center no-repeat;
+    background: #3c291d url(bg.jpg) center no-repeat;
     background-size: cover;
     font-family: 'PT Serif', serif;
     margin: 0;
@@ -22,7 +22,7 @@ body {
         margin-bottom: 50px;
     }
 
-    section {
+    &__section {
         margin: 0 auto 120px;
         width: 670px;
         text-align: left;
@@ -62,7 +62,7 @@ body {
                 border: 1px solid #fff;
                 display: block;
                 padding: 12px 92px 12px 18px;
-                background: url(./icon-fb.png) right center no-repeat;
+                background: url(icon-fb.png) right center no-repeat;
             }
         }
     }

@@ -13,7 +13,7 @@ class ComingSoon extends React.Component {
 
                 <h1 className='coming-soon__title'>Приветствуем вас на “комингсун” странице столярной мастерской Теsl’ar!</h1>
 
-                <section>
+                <div className='coming-soon__section'>
 
                     <h2>Скоро<br></br>тут появится наш сайт</h2>
                     <div className='fb'>
@@ -22,7 +22,7 @@ class ComingSoon extends React.Component {
                         <a href={ config.siteFbUrl } target='_blank'>Узнать больше о нас на страницах фейсбука</a>
                     </div>
 
-                </section>
+                </div>
 
                 <div className='coming-soon__copyright'>2013 - 2016 © tesl’ar</div>
             </div>
