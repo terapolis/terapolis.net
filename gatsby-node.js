@@ -4,14 +4,14 @@ var cssnext = require("postcss-cssnext")
 
 exports.modifyWebpackConfig = function(config, env) {
 
-    config.loader('png', {
-      test: /\.png$/,
-      loader: 'file-loader',
-    })
-    config.loader('jpg', {
-      test: /\.jpg$/,
-      loader: 'file-loader',
-    })
+    // config.loader('png', {
+    //   test: /\.png$/,
+    //   loader: 'file-loader',
+    // })
+    // config.loader('jpg', {
+    //   test: /\.jpg$/,
+    //   loader: 'file-loader',
+    // })
 
     config.merge({
         postcss: [
@@ -22,6 +22,8 @@ exports.modifyWebpackConfig = function(config, env) {
             })
         ]
     })
+
+    // config.removeLoader('images')
 
     return config
 };

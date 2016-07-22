@@ -1,0 +1,25 @@
+.nav-lang {
+    font-family: 'PT Sans', sans-serif;
+    color: #ef4030;
+    margin: 20px auto 40px;
+
+    &__link {
+        font-size: 13px;
+        text-decoration: none;
+        padding: 4px 10px;
+        color: #fff;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        margin: 0 4px;
+        transition: border-color .25s ease, color .25s ease;
+
+        &:hover {
+            border-color: #fff;
+        }
+
+        &.is-selected {
+            color: #ef4030;
+            border-color: #ef4030;
+        }
+    }
+}

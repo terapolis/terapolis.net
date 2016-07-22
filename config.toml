@@ -1,5 +1,5 @@
-siteTitle = "Ihor Orlovskyi Portfolio"
-siteDescr = "Web Scientist, Front-end Engineer & Psychedelic Musician"
+siteTitle = "Tesl’ar"
+siteDescr = "Столярна майстерня"
 siteAuthor = "Ihor Orlovskyi"
 
 siteLinkedinUrl = ""
@@ -10,5 +10,7 @@ siteInstagramUrl = ""
 siteGpUrl = ""
 siteTwitterUrl = ""
 
+poweredUrl = 'http://rooooster.com'
+poweredTitle = 'Rooster Studio'
 
 linkPrefix = "/teslar-react"

@@ -1,18 +1,25 @@
-body {
-    text-align: center;
-    background: #3c291d url(bg.jpg) center no-repeat;
-    background-size: cover;
-    font-family: 'PT Serif', serif;
-    margin: 0;
-}
-
 .coming-soon {
     text-align: center;
+    margin-bottom: 60px;
 
     &__logo {
+        margin: 40px auto 60px;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    &__logo-img {
         width: 180px;
         height: auto;
-        margin: 50px auto 110px;
+        margin-bottom: 50px;
+    }
+
+    &__slogan {
+        font-family: 'PT Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 300;
+        color: #fff;
     }
 
     &__title {
@@ -27,7 +34,7 @@ body {
         width: 670px;
         text-align: left;
         position: relative;
-        padding: 40px 60px;
+        padding: 40px 50px;
         background: rgba(#fff,.2);
         box-sizing: border-box;
 
@@ -54,16 +61,23 @@ body {
                 font-size: 20px;
                 font-weight: 400;
             }
+        }
+    }
 
-            a {
-                text-decoration: none;
-                color: #c6c6c6;
-                font-size: 15px;
-                border: 1px solid #fff;
-                display: block;
-                padding: 12px 92px 12px 18px;
-                background: url(icon-fb.png) right center no-repeat;
-            }
+    &__link {
+        text-decoration: none;
+        color: #c6c6c6;
+        font-size: 15px;
+        border: 1px solid #c6c6c6;
+        display: block;
+        padding: 12px 70px 12px 18px;
+        background: url(icon-fb.png) right center no-repeat;
+        transition: border-color .25s ease, color .25s ease, background-color .25s ease;
+
+        &:hover {
+            background-color: #fff;
+            color: #3a579d;
+            border-color: #3a579d;
         }
     }
 
@@ -71,8 +85,51 @@ body {
         font-family: 'PT Sans', sans-serif;
         color: #ef4030;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 3px;
         font-size: 13px;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
+    }
+
+    &__powered {
+        font-family: 'PT Sans', sans-serif;
+        color: rgba(#fff,.5);
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+
+    &__powered-link {
+        color: #ef4030;
+        text-decoration: none;
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: -2px;
+            height: 1px;
+            left: 100%;
+            background: #ef4030;
+            transition: left .25s ease;
+        }
+        &:hover:before {
+            left: 0;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: -2px;
+            height: 1px;
+            left: 0;
+            background: #ef4030;
+            transition: left .25s ease;
+        }
+        &:hover:after {
+            left: 100%;
+        }
     }
 }

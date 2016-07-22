@@ -1,7 +1,8 @@
 import React from 'react'
 import { RouteHandler, Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
-import './style.css'
+
+import './style.scss'
 
 class SiteNav extends React.Component {
     render() {

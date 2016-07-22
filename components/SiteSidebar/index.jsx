@@ -5,7 +5,7 @@ import { config } from 'config'
 import SiteNav from '../SiteNav'
 import SiteLinks from '../SiteLinks'
 
-import './style.css'
+import './style.scss'
 
 class SiteSidebar extends React.Component {
     render() {
@@ -15,7 +15,7 @@ class SiteSidebar extends React.Component {
         let header = (
         <header>
             <Link style={ {    textDecoration: 'none',    borderBottom: 'none',    outline: 'none'} } to={ prefixLink('/') }>
-            <img src={ prefixLink('/logo.png') } width='180' height='180' />
+                <img src={ prefixLink('/logo.png') } width='180' height='180' />
             </Link>
             { isHome ? (
                 <h1><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h1>
