@@ -1,38 +1,54 @@
 .coming-soon {
     text-align: center;
-    padding-bottom: 60px;
-    background: #3c291d url(bgPlane.jpg) top center no-repeat;
+    padding: 80px 0;
+    // background-color: #3c291d;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url(bgPlane.jpg);
+    // background-image: url(bgManufactory.jpg);
+    background-attachment: fixed;
     background-size: cover;
 
-    &__logo {
-        margin: 40px auto 60px;
+    &__logo-link {
+        margin: 0 auto 40px;
         display: inline-block;
         text-decoration: none;
+        outline: none;
+        padding: 20px 40px;
+        border: 1px solid rgba(#fff,0);
+        background-color: rgba(#fff,0);
+        transition: border-color .25s ease, background-color .25s ease;
+
+        &:hover {
+            border-color: rgba(#fff,1);
+            background-color: rgba(#fff,.25);
+        }
     }
 
     &__logo-img {
-        width: 180px;
+        width: 200px;
         height: auto;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
-    &__slogan {
+    &__logo-slogan {
         font-family: 'PT Sans', sans-serif;
         text-transform: uppercase;
         font-size: 15px;
-        font-weight: 300;
         color: #fff;
+        letter-spacing: 2px;
     }
 
     &__title {
         color: #fff;
         font-size: 46px;
-        padding: 0 16%;
-        margin-bottom: 50px;
+        // padding: 0 16%;
+        margin: 0 auto 50px;
+        max-width: 1000px;
     }
 
     &__section {
-        margin: 0 auto 120px;
+        margin: 0 auto 80px;
         width: 670px;
         text-align: left;
         position: relative;
@@ -66,21 +82,37 @@
         }
     }
 
-    &__link {
+    &__fblink {
         text-decoration: none;
         color: #c6c6c6;
         font-size: 15px;
         border: 1px solid #c6c6c6;
         display: block;
-        padding: 12px 70px 12px 18px;
-        background: url(iconFb.png) right center no-repeat;
+        padding: 6px 6px 6px 18px;
+        box-sizing: border-box;
+        // background: url(iconFb.svg) right center no-repeat;
+        border: 1px solid #c6c6c6;
         transition: border-color .25s ease, color .25s ease, background-color .25s ease;
+        display: table;
+        height: 64px;
 
         &:hover {
-            background-color: #fff;
+            background-color: rgba(#fff,1);
             color: #3a579d;
             border-color: #3a579d;
         }
+    }
+
+    &__fblink-cell {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    &__fblink-svgicon {
+        width: 50px;
+        height: auto;
+        display: block;
+        margin-left: 18px;
     }
 
     &__copyright {

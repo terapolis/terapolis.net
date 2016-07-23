@@ -19,6 +19,10 @@ class NavLang extends React.Component {
                     Ru
                 </Link> 
 
+                <Link to={ prefixLink('/en')} className={`nav-lang__link ${ location.pathname === prefixLink('/en') ? 'is-selected' : null }`}>
+                    En
+                </Link> 
+
             </div>
         );
     }

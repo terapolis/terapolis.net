@@ -6,8 +6,8 @@ import NavLang from '../NavLang'
 import SitePage from '../SitePage'
 
 import './style.scss'
-import logo from './logo.png'
-import iconFb from './iconFb.png'
+import teslarLogo from './teslarLogo.svg'
+import iconFbSvg from './iconFb.svg'
 import bgPlane from './bgPlane.jpg'
 import bgManufactory from './bgManufactory.jpg'
 
@@ -21,9 +21,9 @@ class ComingSoon extends React.Component {
 
                 <NavLang {...this.props}/>
 
-                <Link to={ prefixLink('/')} className='coming-soon__logo'>
-                    <img className='coming-soon__logo-img' src={ prefixLink(logo) } alt='Теsl’ar Logo 1' />
-                    <div className='coming-soon__slogan'>{ page.contentSlogan }</div>
+                <Link to={ prefixLink('/')} className='coming-soon__logo-link'>
+                    <img className='coming-soon__logo-img' src={ prefixLink(teslarLogo) } alt='Теsl’ar Logo 1' />
+                    <div className='coming-soon__logo-slogan'>{ page.contentSlogan }</div>
                 </Link>
 
                 <h1 className='coming-soon__title'>{ page.contentTitle }</h1>
@@ -34,7 +34,12 @@ class ComingSoon extends React.Component {
                     <div className='fb'>
                         <h3>{ page.contentFacebook }</h3>
 
-                        <a className='coming-soon__link' href={ config.siteFbUrl } target='_blank'>{ page.contentLink }</a>
+                        <a className='coming-soon__fblink' href={ config.siteFbUrl } target='_blank'>
+                            <span className='coming-soon__fblink-cell'>{ page.contentLink }</span>
+                            <span className='coming-soon__fblink-cell'>
+                                <img className='coming-soon__fblink-svgicon' src={ prefixLink(iconFbSvg) }/>
+                            </span>
+                        </a>
                     </div>
 
                 </div>
