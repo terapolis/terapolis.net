@@ -1,6 +1,12 @@
+$S: 508px;
+$M: 754px;
+$L: 1054px;
+$XL: 1300px;
+@import '../../node_modules/coriolan-ui/mixins/media';
+
 .coming-soon {
     text-align: center;
-    padding: 80px 0;
+    padding: 90px 0;
     // background-color: #3c291d;
     background-position: top center;
     background-repeat: no-repeat;
@@ -11,50 +17,66 @@
 
     &__logo-link {
         margin: 0 auto 40px;
-        display: inline-block;
+        display: block;
         text-decoration: none;
         outline: none;
-        padding: 20px 40px;
-        border: 1px solid rgba(#fff,0);
-        background-color: rgba(#fff,0);
-        transition: border-color .25s ease, background-color .25s ease;
+        // border: 1px solid rgba(#fff,0);
+        // background-color: rgba(#fff,0);
+        // transition: border-color .25s ease, background-color .25s ease;
 
-        &:hover {
-            border-color: rgba(#fff,1);
-            background-color: rgba(#fff,.25);
-        }
+        // &:hover {
+        //     border-color: rgba(#fff,1);
+        //     background-color: rgba(#fff,.25);
+        // }
+        max-width: 240px;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
 
     &__logo-img {
-        width: 200px;
+        width: 100%;
         height: auto;
         margin-bottom: 40px;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
 
     &__logo-slogan {
         font-family: 'PT Sans', sans-serif;
         text-transform: uppercase;
-        font-size: 15px;
+        font-size: 14px;
         color: #fff;
         letter-spacing: 2px;
     }
 
     &__title {
         color: #fff;
-        font-size: 46px;
-        // padding: 0 16%;
+        font-size: 28px;
         margin: 0 auto 50px;
+        padding: 0 10px;
         max-width: 1000px;
+
+        @include media(S) {
+            font-size: 36px;
+        }
+
+        @include media(L) {
+            font-size: 46px;
+        }
     }
 
     &__section {
         margin: 0 auto 80px;
-        width: 670px;
         text-align: left;
         position: relative;
         padding: 40px 50px;
         background: rgba(#fff,.2);
         box-sizing: border-box;
+        width: 100%;
+        max-width: 670px;
+
+        @include media(M) {
+        }
 
         h2 {
             margin: 0;
