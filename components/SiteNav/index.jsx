@@ -7,6 +7,7 @@ import './style.scss'
 class SiteNav extends React.Component {
     render() {
         const {location} = this.props
+
         return (
             <nav className='blog-nav'>
                 <ul>
@@ -33,7 +34,7 @@ class SiteNav extends React.Component {
 }
 
 SiteNav.propTypes = {
-        location: React.PropTypes.object,
+    location: React.PropTypes.object,
 }
 
 export default SiteNav

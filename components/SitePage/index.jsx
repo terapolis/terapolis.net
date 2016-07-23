@@ -15,7 +15,7 @@ class SitePage extends React.Component {
 
         return (
             <div className='site-page'>
-                <NavLang/>
+                <NavLang {...this.props}/>
                 <h2>{ post.layout }</h2>
                 <h1>{ post.title }</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.body}}/>

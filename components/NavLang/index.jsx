@@ -1,11 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { RouteHandler, Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 
 import './style.scss'
 
 class NavLang extends React.Component {
     render() {
+        const {location} = this.props
+
         return (
             <div className='nav-lang'>
 
@@ -20,6 +22,10 @@ class NavLang extends React.Component {
             </div>
         );
     }
+}
+
+NavLang.propTypes = {
+    location: React.PropTypes.object,
 }
 
 export default NavLang

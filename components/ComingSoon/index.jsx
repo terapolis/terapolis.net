@@ -16,7 +16,7 @@ class ComingSoon extends React.Component {
         return (
             <div className='coming-soon'>
 
-                <NavLang/>
+                <NavLang {...this.props}/>
 
                 <Link to={ prefixLink('/')} className='coming-soon__logo'>
                     <img className='coming-soon__logo-img' src={ prefixLink('/logo.png') } alt='Теsl’ar Logo' />
