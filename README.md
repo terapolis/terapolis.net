@@ -1,17 +1,23 @@
-# React Porfolio
+# Теsl’ar Studio
 
-Web development of Теsl’ar Studio portfolio site using [GatsbyJS](https://github.com/gatsbyjs/gatsby) - a [ReactJS](https://facebook.github.io/react) static site generator.
+### столярна майстерня
 
-### How to use
+Web development of Теsl’ar Studio site
+
+### Run
 
 `npm i`
 
 `gatsby develop`
 
-`gatsby build --prefix-links`
+`gatsby build` (or `gatsby build --prefix-links`)
 
-After that just copy all from 'build' folder into root of 'gh-pages' branch and push.
+After that just copy all from 'build' folder into root of `master` (or `gh-pages`) branch and push.
 
-### Thanks
+### Used
+
+JavaScript library - [ReactJS](https://facebook.github.io/react)
+
+Static site generator - [GatsbyJS](https://github.com/gatsbyjs/gatsby)
 
 Proudly hosted by [GitHub Pages](https://pages.github.com)

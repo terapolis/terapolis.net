@@ -6,7 +6,10 @@ import NavLang from '../NavLang'
 import SitePage from '../SitePage'
 
 import './style.scss'
+import logo from './logo.png'
 import iconFb from './iconFb.png'
+import bgPlane from './bgPlane.jpg'
+import bgManufactory from './bgManufactory.jpg'
 
 class ComingSoon extends React.Component {
     render() {
@@ -14,12 +17,12 @@ class ComingSoon extends React.Component {
         const page = route.page.data
 
         return (
-            <div className='coming-soon' style={{ display: 'block' }}>
+            <div className='coming-soon'>
 
                 <NavLang {...this.props}/>
 
                 <Link to={ prefixLink('/')} className='coming-soon__logo'>
-                    <img className='coming-soon__logo-img' src={ prefixLink('/logo.png') } alt='Теsl’ar Logo' />
+                    <img className='coming-soon__logo-img' src={ prefixLink(logo) } alt='Теsl’ar Logo 1' />
                     <div className='coming-soon__slogan'>{ page.contentSlogan }</div>
                 </Link>
 
@@ -40,6 +43,9 @@ class ComingSoon extends React.Component {
                 <div className='coming-soon__powered'>
                     Powered by <a href={ config.poweredUrl } className='coming-soon__powered-link' target='_blank'>{ config.poweredTitle }</a>
                 </div>
+
+                <img src={ prefixLink(bgPlane) } style={{ display: 'none' }} />
+                <img src={ prefixLink(bgManufactory) } style={{ display: 'none' }} />
 
             </div>
         );

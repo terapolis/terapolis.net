@@ -1,6 +1,8 @@
 .coming-soon {
     text-align: center;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
+    background: #3c291d url(bgPlane.jpg) top center no-repeat;
+    background-size: cover;
 
     &__logo {
         margin: 40px auto 60px;
