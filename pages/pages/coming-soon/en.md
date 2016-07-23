@@ -1,7 +1,8 @@
 ---
+lang: 'en'
 title: 'carpentry workshop'
 layout: ComingSoon
-path: '/en'
+path: '/en/'
 
 contentSlogan: 'Carpentry workshop'
 contentTitle: 'Welcome to “coming soon” page of Теsl’ar carpentry workshop!'

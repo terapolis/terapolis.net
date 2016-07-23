@@ -5,7 +5,7 @@ import { prefixLink } from 'gatsby-helpers'
 import DocumentTitle from 'react-document-title'
 import access from 'safe-access'
 import { config } from 'config'
-import NavLang from '../NavLang'
+import MainMenu from '../MainMenu'
 import './style.scss';
 
 class SitePage extends React.Component {
@@ -15,8 +15,7 @@ class SitePage extends React.Component {
 
         return (
             <div className='site-page'>
-                <NavLang {...this.props}/>
-                <h2>{ post.layout }</h2>
+                <MainMenu {...this.props}/>
                 <h1>{ post.title }</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.body}}/>
             </div>

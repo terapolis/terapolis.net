@@ -1,7 +1,8 @@
 ---
+lang: 'ru'
 title: 'столярная мастерская'
 layout: ComingSoon
-path: '/ru'
+path: '/ru/'
 
 contentSlogan: 'Столярная мастерская'
 contentTitle: 'Приветствуем вас на “комингсун” странице столярной мастерской Теsl’ar!'

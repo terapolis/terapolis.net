@@ -13,6 +13,7 @@ module.exports = React.createClass({
         const {body, route} = this.props
         const title = DocumentTitle.rewind()
         const font = <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700|PT+Sans:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css' />
+
         let css
         if (process.env.NODE_ENV === 'production') {
             css = <style dangerouslySetInnerHTML={ {    __html: require('!raw!postcss!./public/styles.css')} } />

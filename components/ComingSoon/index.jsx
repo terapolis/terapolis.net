@@ -21,8 +21,8 @@ class ComingSoon extends React.Component {
 
                 <NavLang {...this.props}/>
 
-                <Link to={ prefixLink('/')} className='coming-soon__logo-link'>
-                    <img className='coming-soon__logo-img' src={ prefixLink(teslarLogo) } alt='Теsl’ar Logo 1' />
+                <Link to={ prefixLink('/home') } className='coming-soon__logo-link'>
+                    <img className='coming-soon__logo-img' src={ prefixLink(teslarLogo) } alt='Теsl’ar Logo' />
                     <div className='coming-soon__logo-slogan'>{ page.contentSlogan }</div>
                 </Link>
 

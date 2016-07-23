@@ -20,17 +20,17 @@ $XL: 1300px;
         display: block;
         text-decoration: none;
         outline: none;
-        // border: 1px solid rgba(#fff,0);
-        // background-color: rgba(#fff,0);
-        // transition: border-color .25s ease, background-color .25s ease;
-
-        // &:hover {
-        //     border-color: rgba(#fff,1);
-        //     background-color: rgba(#fff,.25);
-        // }
         max-width: 240px;
-        padding: 0 10px;
+        padding: 12px;
         box-sizing: border-box;
+        border: 1px solid rgba(#fff,0);
+        background-color: rgba(#fff,0);
+        transition: border-color .25s ease, background-color .25s ease;
+
+        &:hover {
+            border-color: rgba(#fff,1);
+            background-color: rgba(#fff,.25);
+        }
     }
 
     &__logo-img {
@@ -81,11 +81,12 @@ $XL: 1300px;
             color: #8b8901;
             background: #fff;
             font-size: 24px;
-            padding: 40px;
+            padding: 20px;
             box-sizing: border-box;
             font-weight: 700;
 
             @include media(M) {
+                padding: 40px;
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -98,10 +99,11 @@ $XL: 1300px;
         &-right {
             float: left;
             width: 100%;
-            padding: 40px;
             box-sizing: border-box;
+            padding: 20px;
 
             @include media(M) {
+                padding: 40px;
                 width: 58%;
                 margin-left: 42%;
             }
@@ -143,7 +145,7 @@ $XL: 1300px;
         width: 50px;
         height: auto;
         display: block;
-        margin-left: 18px;
+        margin-left: 6px;
     }
 
     &__copyright {

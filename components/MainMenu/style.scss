@@ -1,0 +1,24 @@
+.main-menu {
+    padding: 0px 10px;
+    background: #fff;
+    font-family: 'PT Sans', sans-serif;
+    // font-weight: 700px;
+
+    &__link {
+        padding: 30px 10px;
+        display: inline-block;
+        font-size: 16px;
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+        transition: color .25s ease;
+
+        &:hover {
+            color: rgba(#000,.5);
+        }
+
+        &.is-selected {
+            color: rgba(#000,.5);
+        }
+    }
+}

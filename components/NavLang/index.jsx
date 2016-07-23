@@ -15,12 +15,12 @@ class NavLang extends React.Component {
                     Ua
                 </Link>
 
-                <Link to={ prefixLink('/ru')} className={`nav-lang__link ${ location.pathname === prefixLink('/ru') ? 'is-selected' : null }`}>
-                    Ru
+                <Link to={ prefixLink('/en/')} className={`nav-lang__link ${ location.pathname === prefixLink('/en/') ? 'is-selected' : null }`}>
+                    En
                 </Link> 
 
-                <Link to={ prefixLink('/en')} className={`nav-lang__link ${ location.pathname === prefixLink('/en') ? 'is-selected' : null }`}>
-                    En
+                <Link to={ prefixLink('/ru/')} className={`nav-lang__link ${ location.pathname === prefixLink('/ru/') ? 'is-selected' : null }`}>
+                    Ru
                 </Link> 
 
             </div>

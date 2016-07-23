@@ -1,4 +1,5 @@
 ---
+lang: 'ua'
 title: 'столярна майстерня'
 layout: ComingSoon
 path: '/'
