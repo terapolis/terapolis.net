@@ -6,14 +6,14 @@ import NavLang from '../components/NavLang'
 import ComingSoon from '../components/ComingSoon'
 
 import './style.scss'
+import bg from './bg.jpg'
 
 class SiteIndex extends React.Component {
     render() {
         return (
             <DocumentTitle title={ config.siteTitle }>
                 <div>
-                    <NavLang/>
-                    <ComingSoon/>
+
                 </div>
             </DocumentTitle>
         )

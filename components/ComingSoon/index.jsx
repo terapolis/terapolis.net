@@ -6,7 +6,7 @@ import NavLang from '../NavLang'
 import SitePage from '../SitePage'
 
 import './style.scss'
-import imgFbIcon from './icon-fb.png'
+import iconFb from './iconFb.png'
 
 class ComingSoon extends React.Component {
     render() {
@@ -14,7 +14,7 @@ class ComingSoon extends React.Component {
         const page = route.page.data
 
         return (
-            <div className='coming-soon'>
+            <div className='coming-soon' style={{ display: 'block' }}>
 
                 <NavLang {...this.props}/>
 
@@ -22,8 +22,6 @@ class ComingSoon extends React.Component {
                     <img className='coming-soon__logo-img' src={ prefixLink('/logo.png') } alt='Теsl’ar Logo' />
                     <div className='coming-soon__slogan'>{ page.contentSlogan }</div>
                 </Link>
-
-                <img src={ prefixLink(imgFbIcon) } style={{ display: 'none' }} />
 
                 <h1 className='coming-soon__title'>{ page.contentTitle }</h1>
 

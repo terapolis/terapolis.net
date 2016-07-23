@@ -1,7 +1,9 @@
 .nav-lang {
     font-family: 'PT Sans', sans-serif;
     color: #ef4030;
-    margin: 20px auto 40px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
 
     &__link {
         font-size: 13px;
