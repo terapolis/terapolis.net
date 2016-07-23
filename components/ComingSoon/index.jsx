@@ -26,22 +26,19 @@ class ComingSoon extends React.Component {
                     <div className='coming-soon__logo-slogan'>{ page.contentSlogan }</div>
                 </Link>
 
-                <h1 className='coming-soon__title'>{ page.contentTitle }</h1>
+                <div className='coming-soon__title'>{ page.contentTitle }</div>
 
-                <div className='coming-soon__section'>
-
-                    <h2>{ page.contentSoon }</h2>
-                    <div className='fb'>
-                        <h3>{ page.contentFacebook }</h3>
-
-                        <a className='coming-soon__fblink' href={ config.siteFbUrl } target='_blank'>
-                            <span className='coming-soon__fblink-cell'>{ page.contentLink }</span>
-                            <span className='coming-soon__fblink-cell'>
-                                <img className='coming-soon__fblink-svgicon' src={ prefixLink(iconFbSvg) }/>
+                <div className='coming-soon__soon'>
+                    <div className='coming-soon__soon-left'>{ page.contentSoon }</div>
+                    <div className='coming-soon__soon-right'>
+                        <div className='coming-soon__fb-title'>{ page.contentFacebook }</div>
+                        <a className='coming-soon__fb-link' href={ config.siteFbUrl } target='_blank'>
+                            <span className='coming-soon__fb-link-cell'>{ page.contentLink }</span>
+                            <span className='coming-soon__fb-link-cell'>
+                                <img className='coming-soon__fb-link-svgicon' src={ prefixLink(iconFbSvg) }/>
                             </span>
                         </a>
                     </div>
-
                 </div>
 
                 <div className='coming-soon__copyright'>2013 - 2016 © Tesl’ar</div>
