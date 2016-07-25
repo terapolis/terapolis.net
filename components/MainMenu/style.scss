@@ -7,18 +7,36 @@
     &__link {
         padding: 30px 10px;
         display: inline-block;
-        font-size: 16px;
+        font-size: 13px;
         text-decoration: none;
         color: #000;
         text-transform: uppercase;
         transition: color .25s ease;
+        font-weight: 700;
+        position: relative;
 
         &:hover {
             color: rgba(#000,.5);
         }
 
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 4px;
+            transition: width .25s ease, left .25s ease;
+            background: #f04130;
+        }
+
         &.is-selected {
             color: rgba(#000,.5);
+
+            &:after {
+                left: 0;
+                width: 100%;
+            }
         }
     }
 }
