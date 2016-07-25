@@ -14,10 +14,12 @@ class SitePage extends React.Component {
         const post = route.page.data
 
         return (
-            <div className='site-page'>
+            <div>
                 <MainMenu {...this.props}/>
-                <h1>{ post.title }</h1>
-                <div dangerouslySetInnerHTML={{ __html: post.body}}/>
+                <div className='site-page'>
+                    <h1>{ post.title }</h1>
+                    <div dangerouslySetInnerHTML={{ __html: post.body}}/>
+                </div>
             </div>
         );
     }

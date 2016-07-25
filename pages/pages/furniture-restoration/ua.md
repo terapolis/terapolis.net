@@ -1,6 +1,6 @@
 ---
 lang: 'ua'
-title: 'Furniture Restoration'
+title: 'Реставрація меблів'
 layout: page
 path: '/furniture-restoration'
 

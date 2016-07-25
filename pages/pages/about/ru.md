@@ -1,6 +1,6 @@
 ---
 lang: 'ru'
-title: 'About'
+title: 'О нас'
 layout: page
 path: '/ru/about'
 

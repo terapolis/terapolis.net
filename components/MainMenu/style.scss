@@ -1,3 +1,9 @@
+$S: 508px;
+$M: 754px;
+$L: 1054px;
+$XL: 1300px;
+@import '../../node_modules/coriolan-ui/mixins/media';
+
 .main-menu {
     padding: 0px 10px;
     background: #fff;
@@ -5,7 +11,7 @@
     // font-weight: 700px;
 
     &__link {
-        padding: 30px 10px;
+        padding: 4px 6px;
         display: inline-block;
         font-size: 13px;
         text-decoration: none;
@@ -14,10 +20,6 @@
         transition: color .25s ease;
         font-weight: 700;
         position: relative;
-
-        &:hover {
-            color: rgba(#000,.5);
-        }
 
         &:after {
             content: '';
@@ -28,6 +30,14 @@
             height: 4px;
             transition: width .25s ease, left .25s ease;
             background: #f04130;
+        }
+
+        @include media(M) {
+            padding: 30px 10px;
+        }
+
+        &:hover {
+            color: rgba(#000,.5);
         }
 
         &.is-selected {

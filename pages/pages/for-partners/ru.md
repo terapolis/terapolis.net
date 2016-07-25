@@ -1,6 +1,6 @@
 ---
 lang: 'ru'
-title: 'For Partners'
+title: 'Партнерам'
 layout: page
 path: '/ru/for-partners'
 

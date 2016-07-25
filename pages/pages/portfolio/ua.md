@@ -1,6 +1,6 @@
 ---
 lang: 'ua'
-title: 'Portfolio'
+title: 'Портфоліо'
 layout: page
 path: '/portfolio'
 

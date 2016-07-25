@@ -1,6 +1,6 @@
 ---
 lang: 'ru'
-title: 'Contacts'
+title: 'Контакты'
 layout: page
 path: '/ru/contacts'
 

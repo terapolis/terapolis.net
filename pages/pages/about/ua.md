@@ -1,6 +1,6 @@
 ---
 lang: 'ua'
-title: 'About'
+title: 'О нас'
 layout: page
 path: '/about'
 

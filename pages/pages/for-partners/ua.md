@@ -1,6 +1,6 @@
 ---
 lang: 'ua'
-title: 'For Partners'
+title: 'Партнерам'
 layout: page
 path: '/for-partners'
 

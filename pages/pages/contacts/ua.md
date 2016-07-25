@@ -1,6 +1,6 @@
 ---
 lang: 'ua'
-title: 'Contacts'
+title: 'Контакти'
 layout: page
 path: '/contacts'
 

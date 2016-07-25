@@ -14,15 +14,15 @@ class MainMenu extends React.Component {
             <div className='main-menu'>
 
                 <Link to={ prefixLink('/')} className='main-menu__link'>
-                    Коминг сун
+                    Комінг сун
                 </Link>
 
                 <Link to={ prefixLink('/home')} className={`main-menu__link ${ location.pathname === prefixLink('/home') ? 'is-selected' : null }`}>
-                    Дом
+                    Домашня
                 </Link>
 
                 <Link to={ prefixLink('/about')} className={`main-menu__link ${ location.pathname === prefixLink('/about') ? 'is-selected' : null }`}>
-                    О нас
+                    Про нас
                 </Link> 
 
                 <Link to={ prefixLink('/catalog')} className={`main-menu__link ${ location.pathname === prefixLink('/catalog') ? 'is-selected' : null }`}>
@@ -30,11 +30,11 @@ class MainMenu extends React.Component {
                 </Link> 
 
                 <Link to={ prefixLink('/portfolio')} className={`main-menu__link ${ location.pathname === prefixLink('/portfolio') ? 'is-selected' : null }`}>
-                    Портфолио
+                    Портфоліо
                 </Link> 
 
                 <Link to={ prefixLink('/furniture-restoration')} className={`main-menu__link ${ location.pathname === prefixLink('/furniture-restoration') ? 'is-selected' : null }`}>
-                    Реставрация мебели
+                    Реставрація меблів
                 </Link> 
 
                 <Link to={ prefixLink('/for-partners')} className={`main-menu__link ${ location.pathname === prefixLink('/for-partners') ? 'is-selected' : null }`}>
@@ -42,7 +42,7 @@ class MainMenu extends React.Component {
                 </Link> 
 
                 <Link to={ prefixLink('/contacts')} className={`main-menu__link ${ location.pathname === prefixLink('/contacts') ? 'is-selected' : null }`}>
-                    Контакты
+                    Контакти
                 </Link> 
 
             </div>

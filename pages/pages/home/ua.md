@@ -1,6 +1,6 @@
 ---
 lang: 'ua'
-title: 'Home'
+title: 'Домашня'
 layout: page
 path: '/home'
 

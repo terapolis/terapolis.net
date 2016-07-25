@@ -1,6 +1,6 @@
 ---
 lang: 'ru'
-title: 'Portfolio'
+title: 'Портфолио'
 layout: page
 path: '/ru/portfolio'
 

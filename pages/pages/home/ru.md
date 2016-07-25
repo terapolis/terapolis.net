@@ -1,6 +1,6 @@
 ---
 lang: 'ru'
-title: 'Home'
+title: 'Домашняя'
 layout: page
 path: '/ru/home'
 
