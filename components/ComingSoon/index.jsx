@@ -4,6 +4,7 @@ import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
 import NavLang from '../NavLang'
 import SitePage from '../SitePage'
+import Ink from 'react-ink'
 
 import './style.scss'
 import teslarLogo from './teslarLogo.svg'
@@ -24,6 +25,7 @@ class ComingSoon extends React.Component {
                 <Link to={ prefixLink('/home') } className='coming-soon__logo-link'>
                     <img className='coming-soon__logo-img' src={ prefixLink(teslarLogo) } alt='Теsl’ar Logo' />
                     <div className='coming-soon__logo-slogan'>{ page.contentSlogan }</div>
+                    <Ink />
                 </Link>
 
                 <div className='coming-soon__title'>{ page.contentTitle }</div>
