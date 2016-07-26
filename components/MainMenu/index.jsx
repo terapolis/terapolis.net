@@ -19,37 +19,37 @@ class MainMenu extends React.Component {
                     <Ink />
                 </Link>
 
-                <Link to={ prefixLink('/home')} className={`main-menu__link ${ location.pathname === prefixLink('/home') ? 'is-selected' : null }`}>
+                <Link to={ prefixLink('/home')} className={`main-menu__link ${ location.pathname === prefixLink('/home') ? 'is-selected' : '' }`}>
                     Домашня
                     <Ink />
                 </Link>
 
-                <Link to={ prefixLink('/about')} className={`main-menu__link ${ location.pathname === prefixLink('/about') ? 'is-selected' : null }`}>
+                <Link to={ prefixLink('/about')} className={`main-menu__link ${ location.pathname === prefixLink('/about') ? 'is-selected' : '' }`}>
                     Про нас
                     <Ink />
                 </Link> 
 
-                <Link to={ prefixLink('/catalog')} className={`main-menu__link ${ location.pathname === prefixLink('/catalog') ? 'is-selected' : null }`}>
+                <Link to={ prefixLink('/catalog')} className={`main-menu__link ${ location.pathname === prefixLink('/catalog') ? 'is-selected' : '' }`}>
                     Каталог
                     <Ink />
                 </Link> 
 
-                <Link to={ prefixLink('/portfolio')} className={`main-menu__link ${ location.pathname === prefixLink('/portfolio') ? 'is-selected' : null }`}>
+                <Link to={ prefixLink('/portfolio')} className={`main-menu__link ${ location.pathname === prefixLink('/portfolio') ? 'is-selected' : '' }`}>
                     Портфоліо
                     <Ink />
                 </Link> 
 
-                <Link to={ prefixLink('/furniture-restoration')} className={`main-menu__link ${ location.pathname === prefixLink('/furniture-restoration') ? 'is-selected' : null }`}>
+                <Link to={ prefixLink('/furniture-restoration')} className={`main-menu__link ${ location.pathname === prefixLink('/furniture-restoration') ? 'is-selected' : '' }`}>
                     Реставрація меблів
                     <Ink />
                 </Link> 
 
-                <Link to={ prefixLink('/for-partners')} className={`main-menu__link ${ location.pathname === prefixLink('/for-partners') ? 'is-selected' : null }`}>
+                <Link to={ prefixLink('/for-partners')} className={`main-menu__link ${ location.pathname === prefixLink('/for-partners') ? 'is-selected' : '' }`}>
                     Партнерам
                     <Ink />
                 </Link> 
 
-                <Link to={ prefixLink('/contacts')} className={`main-menu__link ${ location.pathname === prefixLink('/contacts') ? 'is-selected' : null }`}>
+                <Link to={ prefixLink('/contacts')} className={`main-menu__link ${ location.pathname === prefixLink('/contacts') ? 'is-selected' : '' }`}>
                     Контакти
                     <Ink />
                 </Link> 
