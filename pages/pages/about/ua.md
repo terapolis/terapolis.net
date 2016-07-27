@@ -6,4 +6,4 @@ path: '/about'
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magnam, molestias facere. Repudiandae velit dolorum dolore quis temporibus, ea, laboriosam deleniti blanditiis eveniet itaque labore obcaecati reiciendis iusto veniam beatae, autem eius maxime neque! Repellat doloremque odit ea ab animi totam similique cumque praesentium? Optio necessitatibus labore, ab quibusdam nemo!
+Але щоб ви зрозуміли, звідки виникає це хибне уявлення людей, цуратись насолоди і вихваляти страждання, я розкрию перед вами всю картину і роз’ясню, що саме говорив цей чоловік, який відкрив істину, якого я б назвав зодчим щасливого життя.
