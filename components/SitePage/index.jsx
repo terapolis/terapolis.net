@@ -6,6 +6,7 @@ import DocumentTitle from 'react-document-title'
 import access from 'safe-access'
 import { config } from 'config'
 import MainMenu from '../MainMenu'
+import Footer from '../Footer'
 import './style.scss';
 
 class SitePage extends React.Component {
@@ -20,6 +21,7 @@ class SitePage extends React.Component {
                     <h1>{ post.title }</h1>
                     <div dangerouslySetInnerHTML={{ __html: post.body}}/>
                 </div>
+                <Footer {...this.props}/>
             </div>
         );
     }
