@@ -1,14 +1,16 @@
-# Теsl’ar Studio
+# Теsl’ar / Тесляр
 
-### столярна майстерня
+### carpentry workshop / столярна майстерня
 
-Web development of Теsl’ar Studio site
+Web development of Теsl’ar site
 
 ### Run
 
 `npm i`
 
 `gatsby develop`
+
+### Build
 
 `gatsby build` (or `gatsby build --prefix-links`)
 
@@ -19,5 +21,7 @@ After that just copy all from 'build' folder into root of `master` (or `gh-pages
 JavaScript library - [ReactJS](https://facebook.github.io/react)
 
 Static site generator - [GatsbyJS](https://github.com/gatsbyjs/gatsby)
+
+Front-end concept - [Coriolan UI](https://coriolan-ui.github.io)
 
 Proudly hosted by [GitHub Pages](https://pages.github.com)
