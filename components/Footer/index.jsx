@@ -4,7 +4,7 @@ import Ink from 'react-ink'
 import { config } from 'config'
 
 import './style.scss'
-import iconFbSvg from '../ComingSoon/iconFb.svg'
+import iconFacebook from '../../static/img/svg-icons/facebook.svg'
 
 class Footer extends React.Component {
     render() {
@@ -17,7 +17,7 @@ class Footer extends React.Component {
 
                 <div className='footer__nav'>
                     <a className='footer__link' href={ config.siteFbUrl } target='_blank'>
-                        <img className='footer__svgicon' src={ prefixLink(iconFbSvg) }/>
+                        <img className='coming-soon__fb-link-svgicon' src={ prefixLink(iconFacebook) }/>
                     </a>
                 </div>
 

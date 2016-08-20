@@ -8,7 +8,7 @@ import Ink from 'react-ink'
 
 import './style.scss'
 import teslarLogo from './teslarLogo.svg'
-import iconFbSvg from './iconFb.svg'
+import iconFacebook from '../../static/img/svg-icons/facebook.svg'
 import bgPlane from './bgPlane.jpg'
 import bgManufactory from './bgManufactory.jpg'
 
@@ -37,7 +37,7 @@ class ComingSoon extends React.Component {
                         <a className='coming-soon__fb-link' href={ config.siteFbUrl } target='_blank'>
                             <span className='coming-soon__fb-link-cell'>{ page.contentLink }</span>
                             <span className='coming-soon__fb-link-cell'>
-                                <img className='coming-soon__fb-link-svgicon' src={ prefixLink(iconFbSvg) }/>
+                                <img className='coming-soon__fb-link-svgicon' src={ prefixLink(iconFacebook) }/>
                             </span>
                         </a>
                     </div>
