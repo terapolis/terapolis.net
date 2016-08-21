@@ -5,10 +5,16 @@ $XL: 1300px;
 @import '../../node_modules/coriolan-ui/mixins/media';
 
 .main-menu {
-    padding: 0px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     background: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
     font-family: 'PT Sans', sans-serif;
-    // font-weight: 700px;
 
     &__link {
         padding: 4px 6px;

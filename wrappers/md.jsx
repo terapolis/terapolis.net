@@ -3,7 +3,11 @@ import DocumentTitle from 'react-document-title'
 import SitePost from '../components/SitePost'
 import SitePage from '../components/SitePage'
 import ComingSoon from '../components/ComingSoon'
+import MainMenu from '../components/MainMenu'
+import Footer from '../components/Footer'
 import { config } from 'config'
+
+import './style.scss'
 
 class MarkdownWrapper extends React.Component {
     render() {
@@ -23,8 +27,14 @@ class MarkdownWrapper extends React.Component {
 
         return (
             <DocumentTitle title={ `${config.siteTitle} - ${post.title}` }>
-                <div>
-                    { template }
+                <div className='flex-sticky'>
+                    <div className='flex-sticky__content'>
+                        <MainMenu {...this.props} />
+                        <div className='main-container'>
+                            { template }
+                        </div>
+                    </div>
+                    <Footer {...this.props} />
                 </div>
             </DocumentTitle>
         );

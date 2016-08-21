@@ -5,8 +5,7 @@ import { prefixLink } from 'gatsby-helpers'
 import DocumentTitle from 'react-document-title'
 import access from 'safe-access'
 import { config } from 'config'
-import MainMenu from '../MainMenu'
-import Footer from '../Footer'
+
 import './style.scss';
 
 class SitePage extends React.Component {
@@ -15,13 +14,9 @@ class SitePage extends React.Component {
         const post = route.page.data
 
         return (
-            <div>
-                <MainMenu {...this.props}/>
-                <div className='site-page'>
-                    <h1>{ post.title }</h1>
-                    <div dangerouslySetInnerHTML={{ __html: post.body}}/>
-                </div>
-                <Footer {...this.props}/>
+            <div className='site-page'>
+                <h1>{ post.title }</h1>
+                <div dangerouslySetInnerHTML={{ __html: post.body}}/>
             </div>
         );
     }
